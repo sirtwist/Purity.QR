@@ -2,11 +2,13 @@
 
 A simple Windows Phone control library for offering a camera preview surface that can find and read QR codes. A simplified version of other similar libraries.
 
-For Windows Phone 7.5 (this library targets the Windows Phone 7.1 SDK)
+For Windows Phone 8.0+
 
 ## Credits
 
 Control implementation created by Jeff Wilcox
+
+Updates to Windows Phone 8 by George Roberts
 
 Sample code and concept provided by Michael Osthege
 
