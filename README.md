@@ -1,20 +1,18 @@
-#wpqr-control
+#Purity.QR
 
-A simple Windows Phone control library for offering a camera preview surface that can find and read QR codes. A simplified version of other similar libraries.
+A simple Windows Phone 8+ control library for offering a camera preview surface that can find and read QR codes. A simplified version of other similar libraries, based off wpqr-control from Jeff Wilcox.
 
 For Windows Phone 8.0+
 
 ## Credits
 
-Control implementation created by Jeff Wilcox
+Original control implementation created by Jeff Wilcox
 
-Updates to Windows Phone 8 by George Roberts
+Conversion to Windows Phone 8 and further development by George Roberts
 
 Sample code and concept provided by Michael Osthege
 
-Based on the Silverlight zxing port (http://silverlightzxing.codeplex.com/)
-
-Uses the zxing multi-format barcode image processing library (http://code.google.com/p/zxing/)
+Uses the ZXing.Net.Mobile library (https://github.com/Redth/ZXing.Net.Mobile)
 
 ## License
 
@@ -32,10 +30,6 @@ limitations under the License.
 
 ## Changelog
 
-1.0.1:
+1.1.0:
 
-* Updates the generic XAML to not stretch the video brush (maintaining a natural aspect ratio)
-
-1.0:
-
-* Initial implementation
+* Initial Windows Phone 8+ version
