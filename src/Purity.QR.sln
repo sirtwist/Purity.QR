@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30324.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Purity.QR.WindowsPhone81", "Purity.QR.WindowsPhone81\Purity.QR.WindowsPhone81.csproj", "{A44E6710-994E-480A-95C9-E6B5AEC73C01}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Purity.QR.WindowsPhone8", "Purity.QR.WindowsPhone8\Purity.QR.WindowsPhone8.csproj", "{F47A8668-B209-4215-936C-5EDFED289F26}"
 EndProject
 Global
@@ -17,18 +15,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A44E6710-994E-480A-95C9-E6B5AEC73C01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A44E6710-994E-480A-95C9-E6B5AEC73C01}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A44E6710-994E-480A-95C9-E6B5AEC73C01}.Debug|ARM.ActiveCfg = Debug|ARM
-		{A44E6710-994E-480A-95C9-E6B5AEC73C01}.Debug|ARM.Build.0 = Debug|ARM
-		{A44E6710-994E-480A-95C9-E6B5AEC73C01}.Debug|x86.ActiveCfg = Debug|x86
-		{A44E6710-994E-480A-95C9-E6B5AEC73C01}.Debug|x86.Build.0 = Debug|x86
-		{A44E6710-994E-480A-95C9-E6B5AEC73C01}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A44E6710-994E-480A-95C9-E6B5AEC73C01}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A44E6710-994E-480A-95C9-E6B5AEC73C01}.Release|ARM.ActiveCfg = Release|ARM
-		{A44E6710-994E-480A-95C9-E6B5AEC73C01}.Release|ARM.Build.0 = Release|ARM
-		{A44E6710-994E-480A-95C9-E6B5AEC73C01}.Release|x86.ActiveCfg = Release|x86
-		{A44E6710-994E-480A-95C9-E6B5AEC73C01}.Release|x86.Build.0 = Release|x86
 		{F47A8668-B209-4215-936C-5EDFED289F26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F47A8668-B209-4215-936C-5EDFED289F26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F47A8668-B209-4215-936C-5EDFED289F26}.Debug|ARM.ActiveCfg = Debug|ARM
