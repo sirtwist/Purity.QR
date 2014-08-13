@@ -4,15 +4,15 @@
     xmlns:vsm="clr-namespace:System.Windows;assembly=System.Windows"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
-    xmlns:jw="clr-namespace:Purity.QR"
+    xmlns:purity="clr-namespace:Purity.QR"
     mc:Ignorable="d">
-    <Style TargetType="jw:QRCodeScanner">
+    <Style TargetType="purity:QRCodeScanner">
         <Setter Property="BorderBrush" Value="{StaticResource PhoneAccentBrush}"/>
         <Setter Property="BorderThickness" Value="12"/>
         <Setter Property="Padding" Value="0"/>
         <Setter Property="Template">
             <Setter.Value>
-                <ControlTemplate TargetType="jw:QRCodeScanner">
+                <ControlTemplate TargetType="purity:QRCodeScanner">
                     <Border
                         BorderBrush="{TemplateBinding BorderBrush}"
                         BorderThickness="{TemplateBinding BorderThickness}"
