@@ -50,6 +50,19 @@ namespace Purity.QR
         private PhotoCameraLuminanceSource _luminanceSource;
 
         private bool _initialized;
+        private bool _autostart = false;
+
+        public bool AutoStart
+        {
+            get
+            {
+                return _autostart;
+            }
+            set
+            {
+                _autostart = value;
+            }
+        }
 
         #region public bool IsScanning
         /// <summary>
@@ -158,7 +171,10 @@ namespace Purity.QR
                     Convert.ToInt32(_photoCamera.PreviewResolution.Width),
                     Convert.ToInt32(_photoCamera.PreviewResolution.Height));
                 _initialized = true;
-                StartScanning();
+                if (AutoStart)
+                {
+                    StartScanning();
+                }
             }
             catch (Exception ex)
             {
